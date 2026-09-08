@@ -61,6 +61,12 @@ endchoice
 
 config LV_FONT_MONTSERRAT_40
     default y
+    help
+      Required as the fallback font referenced by NerdFonts_Regular_40's
+      .fallback field; NerdFonts_Regular_40 itself is no longer used
+      directly by any widget (layer_status now uses JetBrainsMono_Regular_40)
+      but mod_status.c still relies on NerdFonts_Regular_40 for its icons.
+
 
 config PWM
     default y
