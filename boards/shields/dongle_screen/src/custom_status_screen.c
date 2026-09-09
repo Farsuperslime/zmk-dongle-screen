@@ -46,7 +46,7 @@ lv_obj_t *zmk_display_status_screen()
     lv_obj_set_style_bg_opa(screen, 255, LV_PART_MAIN);
 
     lv_style_init(&global_style);
-    lv_style_set_text_font(&global_style, &JetBrainsMono_Regular_14);
+    lv_style_set_text_font(&global_style, &JetBrainsMono_Medium_20);
     lv_style_set_text_color(&global_style, lv_color_white());
     lv_style_set_text_letter_space(&global_style, 1);
     lv_style_set_text_line_space(&global_style, 1);
